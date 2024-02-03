@@ -1,0 +1,37 @@
+@media (max-width: 900px) {
+  #time {
+    font-size: 4vw;
+    color: #fff;
+    margin-left: 2vw;
+    margin-top: 2vw;
+  }
+
+  .container {
+    width: 80%;
+    margin-top: 10vw;
+  }
+  .inputs {
+    margin-top: 4vw;
+  }
+  input {
+    width: 80%;
+    height: 10vw;
+    outline: none;
+    margin-left: 1vw;
+    border-radius: 8px;
+    font-size: 4.2vw;
+    padding: 1%;
+  }
+  button {
+    height: 10vw;
+    margin-left: 1vw;
+  }
+  button:hover {
+    box-shadow: 15vw 0 0 0 rgb(0, 255, 94) inset;
+  }
+  .text ul {
+    border-radius: 6px;
+    font-size: 6vw;
+    margin-top: 5vw;
+  }
+}

@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>To-Do App</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="mobileport/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
+
 <body>
-  
+  <div id="time"></div>
+  <video id="backgroundVideo" loop muted autoplay>
+    <source src="background.mp4" type="video/mp4">
+  </video>
+  <div class="container">
+    <div class="box">
+      <h1 onclick="time()">To-Do</h1>
+      <div class="inputs-box">
+        <input type="text" id="inp" placeholder="Add your task.....">
+        <button onclick="Add()">Add</button>
+      </div>
+    </div>
+    <div class="text">
+
+    </div>
+  </div>
+
 </body>
+<script src="index.js"></script>
+
 </html>
